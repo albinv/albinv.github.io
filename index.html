@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Albin's addition calculator </title>
+  </head>
+
+
+
+  <body>
+    <h1> Albin's Calculator </h1>
+
+    <script>
+      function addition (){
+        var num1= parseInt(document.getElementById ("number_1").value);
+        var num2= parseInt(document.getElementById ("number_2").value);
+        var x = num1+num2;
+
+        alert ( "The answer is" + x );
+      }
+    </script>
+    <input type="number"  name="value" id="number_1" />
+    <input type="number"  name="value2" id="number_2" />
+    <button  type="button" value="submit" onclick =addition()>Submit</Button>
+
+  </body>
+
+</html>
